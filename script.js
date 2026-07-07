@@ -17,7 +17,7 @@ function openGate() {
     }, 1500);
 }
 
-// FUNÇÃO PARA ABRIR/FECHAR A LISTA DE PRESENTES SUAVEMENTE
+// FUNÇÃO PARA ABRIR/FECHAR A SUGESTÃO DE PRESENTES SUAVEMENTE
 function toggleModal(show) {
     const modal = document.getElementById('gift-modal');
     if (show) {
@@ -52,4 +52,3 @@ const countdownInterval = setInterval(function() {
         document.querySelector(".countdown-container").innerHTML = "<h3>É Hoje! ❄️</h3>";
     }
 }, 1000);
-
