@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XV Isabella Vitória</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TAG DE ÁUDIO (GOLDEN HOUR INSTRUMENTAL) -->
+    <audio id="background-music" src="https://files.catbox.moe/0fbgv0.mp3" loop></audio>
+
+    <!-- TELA DE ENTRADA: AS PORTAS DE GELO VOLTARAM MAIS ELEGANTES -->
+    <div id="ice-gate" class="gate-container">
+        <div class="gate-left"></div>
+        <div class="gate-right"></div>
+        <div class="gate-content">
+            <p class="gate-subtitle">VOCÊ FOI CONVIDADO</p>
+            <h2 class="gate-title">XV</h2>
+            <button class="btn-open" onclick="openGate()">Abrir Convite ❄️</button>
+        </div>
+    </div>
+
+    <!-- EFETIVOS FLOCOS DE NEVE CAINDO PELA TELA -->
+    <div class="snow-container">
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+        <div class="snowflake">❄</div><div class="snowflake">❅</div><div class="snowflake">❆</div>
+    </div>
+
+    <!-- CARD DO CONVITE COM TOQUE DE CRISTAL -->
+    <main class="card">
+        <header>
+            <p class="subtitle">CONVITE DE 15 ANOS</p>
+            <h1 class="main-title">Isabella Vitória</h1>
+            <div class="crystal-divider">❄️</div>
+            <p class="quote">"Fala a Arão, e a seus filhos dizendo: Assim abençoareis os filhos de Israel, dizendo-lhes: ²⁴ O Senhor te abençoe e te guarde; ²⁵ O Senhor faça resplandecer o seu rosto sobre ti, e tenha misericórdia de ti; ²⁶ O Senhor sobre ti levante o seu rosto e te dê a paz. Números 6:23-26"</p>
+        </header>
+
+        <!-- CONTAGEM REGRESSIVA -->
+        <section class="countdown-section">
+            <h3 class="section-title">CONTAGEM REGRESSIVA</h3>
+            <div class="countdown">
+                <div class="time-box"><span id="days">00</span><p>dias</p></div>
+                <div class="time-box-dot">·</div>
+                <div class="time-box"><span id="hours">00</span><p>horas</p></div>
+                <div class="time-box-dot">·</div>
+                <div class="time-box"><span id="minutes">00</span><p>minutos</p></div>
+                <div class="time-box-dot">·</div>
+                <div class="time-box"><span id="seconds">00</span><p>segundos</p></div>
+            </div>
+        </section>
+
+        <!-- DETALHES DA FESTA -->
+        <section class="details-section">
+            <div class="date-time-block">
+                <p class="main-date">21 de Setembro de 2026</p>
+                <p class="main-time">ÀS 20:00h</p>
+            </div>
+
+            <div class="location-clean">
+                <h4 class="location-title">📍 LOCAL DA CELEBRAÇÃO</h4>
+                <p class="address-text">Rua Macunaíma, 50</p>
+                <p class="address-subtext">Vaz Lobo — Rio de Janeiro — RJ</p>
+                <a href="https://maps.google.com/?q=R.+Macunaíma,+50+-+Vaz+Lobo,+Rio+de+Janeiro" class="btn-minimal-link" target="_blank">VER NO GOOGLE MAPS</a>
+            </div>
+        </section>
+
+        <!-- DRESS CODE COERENTE COM O TEMA -->
+        <section class="dress-code-luxury">
+            <h3>✨ DRESS CODE: ESPORTE FINO ✨</h3>
+            <p>"Para preservar a harmonia da nossa identidade visual, pedimos gentilmente que nossos convidados evitem trajes nos tons de azul, branco e dourado. Agradecemos o carinho."</p>
+        </section>
+
+        <!-- LISTA DE PRESENTES -->
+        <section class="gifts-section">
+            <p class="gift-text">Sua presença é o nosso maior presente. Caso deseje nos agraciar, acesse nossa lista de sugestões:</p>
+            <button class="btn-luxury-action" onclick="toggleModal(true)">VISUALIZAR LISTA DE PRESENTES</button>
+        </section>
+
+        <!-- CONFIRMAÇÃO DE PRESENÇA -->
+        <footer class="footer-action">
+            <a href="https://wa.me/5521997102024?text=Olá!+Confirmo+minha+presença+no+XV+da+Isabella+Vitória." class="btn-main-rsvp" target="_blank">
+                CONFIRMAR PRESENÇA
+            </a>
+        </footer>
+    </main>
+
+    <!-- JANELA MODAL DA LISTA -->
+    <div id="gift-modal" class="modal-overlay" onclick="toggleModal(false)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="toggleModal(false)">&times;</button>
+            <img src="lista.png" alt="Lista de Sugestões de Presente" class="modal-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
