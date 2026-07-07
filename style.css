@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    /* Lindo degradê suave que lembra neve e gelo sofisticado */
-    background: linear-gradient(135deg, #f0f4f8 0%, #e6eef4 50%, #dbe7f0 100%);
+    /* Um tico mais escuro e imersivo */
+    background: linear-gradient(135deg, #d3dee8 0%, #c2d1de 50%, #b0c2d1 100%);
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
@@ -98,14 +98,14 @@ body {
     width: 88%;
     margin: 50px 20px;
     padding: 50px 30px;
-    background: rgba(255, 255, 255, 0.75); /* Efeito vidro jateado transparente */
+    background: rgba(255, 255, 255, 0.85); /* Efeito vidro jateado transparente */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 24px;
     text-align: center;
-    box-shadow: 0 20px 50px rgba(103, 126, 153, 0.15);
+    box-shadow: 0 20px 50px rgba(71, 91, 114, 0.2);
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     position: relative;
     z-index: 5;
 }
@@ -113,7 +113,7 @@ body {
 .subtitle {
     font-size: 0.75rem;
     letter-spacing: 5px;
-    color: #78889b;
+    color: #5c6c7d;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -136,7 +136,7 @@ body {
 .quote {
     font-size: 0.88rem;
     font-weight: 300;
-    color: #4a5768;
+    color: #3b4856;
     line-height: 1.7;
     padding: 0 10px;
     margin-bottom: 40px;
@@ -146,14 +146,14 @@ body {
 .countdown-section {
     margin: 40px 0;
     padding: 20px 0;
-    border-top: 1px solid rgba(92, 114, 138, 0.15);
-    border-bottom: 1px solid rgba(92, 114, 138, 0.15);
+    border-top: 1px solid rgba(92, 114, 138, 0.2);
+    border-bottom: 1px solid rgba(92, 114, 138, 0.2);
 }
 
 .section-title {
     font-size: 0.75rem;
     letter-spacing: 3px;
-    color: #78889b;
+    color: #5c6c7d;
     margin-bottom: 20px;
     font-weight: 500;
 }
@@ -174,14 +174,14 @@ body {
 .time-box p {
     margin: 4px 0 0 0;
     font-size: 0.68rem;
-    color: #78889b;
+    color: #5c6c7d;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .time-box-dot {
     font-size: 1.5rem;
-    color: #94a9c1;
+    color: #7a8ea3;
     padding-bottom: 18px;
     margin: 0 12px;
 }
@@ -202,7 +202,7 @@ body {
 .main-time {
     font-size: 0.82rem;
     letter-spacing: 3px;
-    color: #4f6885;
+    color: #384e66;
     font-weight: 600;
     margin-top: 0;
 }
@@ -214,7 +214,7 @@ body {
 .location-title {
     font-size: 0.75rem;
     letter-spacing: 2px;
-    color: #78889b;
+    color: #5c6c7d;
     margin-bottom: 12px;
 }
 
@@ -227,7 +227,7 @@ body {
 
 .address-subtext {
     font-size: 0.85rem;
-    color: #5c697a;
+    color: #4a5766;
     margin: 5px 0 20px 0;
     font-weight: 300;
 }
@@ -235,10 +235,10 @@ body {
 .btn-minimal-link {
     font-size: 0.75rem;
     letter-spacing: 2px;
-    color: #4f6885;
+    color: #384e66;
     text-decoration: none;
     font-weight: 600;
-    border-bottom: 1px solid #4f6885;
+    border-bottom: 1px solid #384e66;
     padding-bottom: 3px;
     transition: opacity 0.3s ease;
 }
@@ -247,8 +247,8 @@ body {
 
 /* DRESS CODE GELO LUXO */
 .dress-code-luxury {
-    background: rgba(230, 238, 244, 0.4);
-    border: 1px solid rgba(79, 104, 133, 0.25);
+    background: rgba(211, 222, 232, 0.4);
+    border: 1px solid rgba(56, 78, 102, 0.25);
     padding: 25px 20px;
     margin: 40px 0;
     border-radius: 16px;
@@ -258,13 +258,13 @@ body {
     margin-top: 0;
     font-size: 0.8rem;
     letter-spacing: 2px;
-    color: #384d66;
+    color: #2b3b4d;
     font-weight: 600;
 }
 
 .dress-code-luxury p {
     font-size: 0.85rem;
-    color: #4a5768;
+    color: #3b4856;
     line-height: 1.6;
     margin-bottom: 0;
     font-weight: 300;
@@ -272,12 +272,12 @@ body {
 
 /* BOTÕES DE AÇÃO INTERNOS */
 .gifts-section { margin-top: 35px; }
-.gift-text { font-size: 0.85rem; color: #5c697a; font-weight: 300; line-height: 1.6; margin-bottom: 20px; }
+.gift-text { font-size: 0.85rem; color: #4a5766; font-weight: 300; line-height: 1.6; margin-bottom: 20px; }
 
 .btn-luxury-action {
     width: 100%;
     padding: 16px;
-    background: #233142; /* Azul noturno elegante */
+    background: #1a2533; /* Azul noturno elegante */
     color: #ffffff;
     border: none;
     border-radius: 50px;
@@ -286,12 +286,12 @@ body {
     font-weight: 500;
     letter-spacing: 2px;
     cursor: pointer;
-    box-shadow: 0 5px 15px rgba(35, 49, 66, 0.2);
+    box-shadow: 0 5px 15px rgba(26, 37, 51, 0.2);
     transition: all 0.3s ease;
 }
 
 .btn-luxury-action:hover {
-    background: #34465c;
+    background: #2b3b4d;
     transform: translateY(-2px);
 }
 
@@ -301,8 +301,8 @@ body {
     display: block;
     padding: 15px;
     background: transparent;
-    color: #4f6885;
-    border: 1px solid #4f6885;
+    color: #384e66;
+    border: 1px solid #384e66;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.78rem;
@@ -313,14 +313,14 @@ body {
 }
 
 .btn-main-rsvp:hover {
-    background: rgba(79, 104, 133, 0.05);
+    background: rgba(56, 78, 102, 0.05);
 }
 
 /* MODAL DA LISTA */
 .modal-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(14, 26, 45, 0.5);
+    background: rgba(14, 26, 45, 0.6);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     z-index: 20000;
@@ -338,14 +338,14 @@ body {
 .modal-img { width: 100%; height: auto; border-radius: 16px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15); }
 .modal-close { position: absolute; top: -40px; right: 0; background: none; border: none; color: #ffffff; font-size: 2rem; cursor: pointer; }
 
-/* ANIMAÇÃO DOS FLOCOS DE NEVE CAINDO (AZUL GLACIAL DESTACADO) */
+/* ANIMAÇÃO DOS FLOCOS DE NEVE CAINDO (POR CIMA DO CARD) */
 .snow-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 4; /* Fica logo atrás do convite principal para não atrapalhar o toque */
+    z-index: 6; /* Fica por cima do card de convite (z-index: 5) */
     pointer-events: none;
     overflow: hidden;
 }
@@ -353,13 +353,13 @@ body {
 .snowflake {
     position: absolute;
     top: -20px;
-    color: #4f83b3; /* Lindo azul-glacial que se destaca no fundo claro */
+    color: #4a7fa1; /* Azul-glacial destacado */
     font-size: 1.1rem;
-    opacity: 0.85; /* Mais visível e nítido */
+    opacity: 0.85;
     user-select: none;
     pointer-events: none;
     animation: fall linear infinite;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); /* Suave sombra para dar efeito 3D */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Ajustes de tempo e posição para a queda da neve */
@@ -386,10 +386,9 @@ body {
 /* ESTILO DA OBSERVAÇÃO SUTIL (CONVIDADO NÃO CONVIDA) */
 .guest-notice {
     font-size: 0.78rem;
-    color: #78889b;
+    color: #5c6c7d;
     font-style: italic;
     margin: -15px 0 30px 0;
     font-weight: 300;
     letter-spacing: 0.5px;
-    }
-    
+}
