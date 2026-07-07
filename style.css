@@ -381,7 +381,8 @@ body {
     90% { opacity: 0.8; }
     100% { transform: translateY(105vh) rotate(360deg); opacity: 0; }
 }
-/* ESTILO DA OBSERVAÇÃO SUTIL */
+
+/* ESTILO DA OBSERVAÇÃO SUTIL (CONVIDADO NÃO CONVIDA) */
 .guest-notice {
     font-size: 0.78rem;
     color: #78889b;
@@ -390,5 +391,4 @@ body {
     font-weight: 300;
     letter-spacing: 0.5px;
 }
-
 
